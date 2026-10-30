@@ -1,0 +1,28 @@
+test_01_conserva_los_12_usuarios (test_features.TestFeaturesChurn.test_01_conserva_los_12_usuarios) ... ok
+test_02_una_fila_por_usuario (test_features.TestFeaturesChurn.test_02_una_fila_por_usuario) ... ok
+test_03_sin_compras_se_codifica_sin_nulos (test_features.TestFeaturesChurn.test_03_sin_compras_se_codifica_sin_nulos) ... ok
+test_04_ana_importe_y_frecuencia_multilinea (test_features.TestFeaturesChurn.test_04_ana_importe_y_frecuencia_multilinea) ... ok
+test_05_ana_ventana_historica_de_tres_meses (test_features.TestFeaturesChurn.test_05_ana_ventana_historica_de_tres_meses) ... ok
+test_06_ana_lag_mes_anterior (test_features.TestFeaturesChurn.test_06_ana_lag_mes_anterior) ... ok
+test_07_bruno_sin_actividad_reciente_pero_con_historial (test_features.TestFeaturesChurn.test_07_bruno_sin_actividad_reciente_pero_con_historial) ... ok
+test_08_jorge_no_cuenta_pedido_cancelado (test_features.TestFeaturesChurn.test_08_jorge_no_cuenta_pedido_cancelado) ... ok
+test_09_karen_solo_pendiente_y_futuro_no_compra (test_features.TestFeaturesChurn.test_09_karen_solo_pendiente_y_futuro_no_compra) ... ok
+test_10_fabio_mes_sin_compras_incluido_en_promedio (test_features.TestFeaturesChurn.test_10_fabio_mes_sin_compras_incluido_en_promedio) ... ok
+test_11_pedido_futuro_no_fuga_al_corte (test_features.TestFeaturesChurn.test_11_pedido_futuro_no_fuga_al_corte) ... ok
+test_12_nuevas_compras_validas_si_estan_antes_del_corte (test_features.TestFeaturesChurn.test_12_nuevas_compras_validas_si_estan_antes_del_corte) ... ok
+test_13_fecha_invalida_no_se_cuenta (test_features.TestFeaturesChurn.test_13_fecha_invalida_no_se_cuenta) ... ok
+test_14_hay_tres_funciones_de_ventana (test_features.TestFeaturesChurn.test_14_hay_tres_funciones_de_ventana) ... ok
+test_15_validador_de_features_sin_nulos (test_features.TestFeaturesChurn.test_15_validador_de_features_sin_nulos) ... ok
+test_16_nuevo_corte_permite_otro_mes_cerrado (test_features.TestFeaturesChurn.test_16_nuevo_corte_permite_otro_mes_cerrado) ... ok
+test_17_fecha_corte_parcial_se_rechaza (test_features.TestFeaturesChurn.test_17_fecha_corte_parcial_se_rechaza) ... ok
+test_18_ranking_se_reinicia_por_ciudad (test_features.TestFeaturesChurn.test_18_ranking_se_reinicia_por_ciudad) ... ok
+test_19_exportacion_csv_es_reproducible (test_features.TestFeaturesChurn.test_19_exportacion_csv_es_reproducible) ... ok
+test_20_importe_global_39_pedidos (test_features.TestFeaturesChurn.test_20_importe_global_39_pedidos) ... ok
+test_21_usuario_alta_futura_se_excluye (test_features.TestFeaturesChurn.test_21_usuario_alta_futura_se_excluye) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.046s
+
+OK
+VALIDACIONES DE FEATURES: OK
+VALIDACIONES DE FEATURES: OK

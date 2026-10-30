@@ -1,0 +1,14 @@
+VALIDACIONES DE FEATURES: OK
+Fecha de corte exclusiva: 2026-10-01
+Usuarios conservados: 12
+Usuarios sin compras: 3
+Pedidos confirmados: 39
+Gasto confirmado: 2840.00
+
+Ejemplo de features:
+{'usuario_id': 1, 'nombre': 'Ana', 'ciudad': 'Buenos Aires', 'recency_dias': 5, 'frequency_pedidos': 7, 'monetary_total': 570.0, 'sin_compras': 0, 'gasto_ultimo_mes': 225.0, 'gasto_mes_anterior': 90.0, 'promedio_historico_3m': 95.0, 'trend_delta_3m': 130.0, 'delta_vs_mes_anterior': 135.0, 'ranking_monetary_ciudad': 1}
+{'usuario_id': 2, 'nombre': 'Bruno', 'ciudad': 'Buenos Aires', 'recency_dias': 166, 'frequency_pedidos': 3, 'monetary_total': 245.0, 'sin_compras': 0, 'gasto_ultimo_mes': 0.0, 'gasto_mes_anterior': 0.0, 'promedio_historico_3m': 0.0, 'trend_delta_3m': 0.0, 'delta_vs_mes_anterior': 0.0, 'ranking_monetary_ciudad': 2}
+{'usuario_id': 10, 'nombre': 'Jorge', 'ciudad': 'Buenos Aires', 'recency_dias': 46, 'frequency_pedidos': 4, 'monetary_total': 210.0, 'sin_compras': 0, 'gasto_ultimo_mes': 0.0, 'gasto_mes_anterior': 30.0, 'promedio_historico_3m': 50.0, 'trend_delta_3m': -50.0, 'delta_vs_mes_anterior': -30.0, 'ranking_monetary_ciudad': 3}
+{'usuario_id': 3, 'nombre': 'Carla', 'ciudad': 'Buenos Aires', 'recency_dias': -1, 'frequency_pedidos': 0, 'monetary_total': 0.0, 'sin_compras': 1, 'gasto_ultimo_mes': 0.0, 'gasto_mes_anterior': 0.0, 'promedio_historico_3m': 0.0, 'trend_delta_3m': 0.0, 'delta_vs_mes_anterior': 0.0, 'ranking_monetary_ciudad': 4}
+{'usuario_id': 5, 'nombre': 'Elena', 'ciudad': 'Cordoba', 'recency_dias': 9, 'frequency_pedidos': 3, 'monetary_total': 325.0, 'sin_compras': 0, 'gasto_ultimo_mes': 300.0, 'gasto_mes_anterior': 0.0, 'promedio_historico_3m': 0.0, 'trend_delta_3m': 300.0, 'delta_vs_mes_anterior': 300.0, 'ranking_monetary_ciudad': 1}
+PIPELINE SQL COMPLETADO: OK
